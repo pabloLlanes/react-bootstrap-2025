@@ -1,12 +1,71 @@
-# React + Vite
+# 📦 Proyecto: React + Bootstrap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto de práctica hecho con **React**, que integra **Bootstrap** para estilos visuales y maquetado responsive.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tecnologías utilizadas
 
-## Expanding the ESLint configuration
+- ⚛️ **React 19**
+- 📦 **Vite**
+- 🎨 **Bootstrap 5**
+- 💄 **React Bootstrap**
+- 🌐 **React Router 7**
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Estructura general
+
+- `App.jsx`: define la estructura principal, navegación y rutas.
+- `NavBar` y `Footer`: visibles en todas las vistas, con diseño responsive.
+- **Páginas**: `Home`, `About`, `Login`, `Films`, `Page404`.
+
+---
+
+## 🧠 Conceptos de React que abarca
+
+- ✅ **useState**  
+  Manejo de estados locales (inputs, contador, login, películas)
+
+- ✅ **useEffect**  
+  Simulación de llamada a API con `setTimeout`
+
+- ✅ **Componentes controlados**  
+  Inputs del formulario de login y del CRUD de películas
+
+- ✅ **Props y lifting state up**  
+  Comunicación entre componentes padre e hijos (`globalCount`, funciones `onLogin`, `onDelete`)
+
+- ✅ **Condicionales en JSX**  
+  Mostrar u ocultar el formulario según el login
+
+- ✅ **Renderizado de listas con `map()`**  
+  Mostrar películas o países
+
+- ✅ **Manejo de formularios**  
+  Formulario de login y formulario para agregar películas
+
+- ✅ **Estilos con Bootstrap y clases utilitarias**
+
+- ✅ **Ruteo con React Router**  
+  Navegación entre páginas (`Route`, `Routes`, `BrowserRouter`)
+
+---
+
+## 🎬 Funcionalidades incluidas
+
+- Contador global compartido entre páginas
+- CRUD sencillo de películas tech/hacker
+- Login simulado con usuario y contraseña hardcodeados
+- Cierre de sesión
+- Simulación de llamada a API que muestra una lista de países
+- Responsive layout con footer pegado abajo
+
+---
+
+## 🧪 Usuario de prueba para login
+
+```
+Email:    pepito@email.com
+Password: 123456
+```
