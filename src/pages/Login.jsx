@@ -28,12 +28,16 @@ function Login() {
 
     return (
         <div className="container text-center mt-5">
-            {isLoggedIn ? null : <h1>Iniciar Sesión</h1>}
+            {isLoggedIn ? null : <>
+
+                <h1>Welcome</h1>
+                <p>email: pepito@email.com | password: 123456</p>
+            </>}
 
             {/* Si está logueado, mostrar bienvenida. Si no, el form */}
             {isLoggedIn ? (
                 <div className="mt-4">
-                    <h2>Bienvenido, {defaultUser.name}!</h2>
+                    <h2>Welcome, {defaultUser.name}!</h2>
                     <p>Has iniciado sesión correctamente 🎉</p>
 
 
