@@ -44,6 +44,9 @@ function NavBar({ globalCount }) {
                         <Nav.Link as={NavLink} to="/films">
                             Films
                         </Nav.Link>
+                        <Nav.Link as={NavLink} to="/favorites">
+                            Favorites
+                        </Nav.Link>
                     </Nav>
 
                     <Button variant={navStyle.buttonVariant} onClick={toggleNavbarStyle}>

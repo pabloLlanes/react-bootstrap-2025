@@ -8,6 +8,7 @@ import Login from './pages/Login';
 import Page404 from './pages/Page404';
 import Films from "./pages/Films";
 import Footer from "./components/Footer";
+import FruitsPage from "./pages/FruitsPage";
 
 function App() {
   const [globalCount, setGlobalCount] = useState(0);
@@ -46,6 +47,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/films" element={<Films />} />
           <Route path="/page404" element={<Page404 />} />
+          <Route path="/favorites" element={<FruitsPage />} />
           <Route path="*" element={<Page404 />} />
         </Routes>
       </div>
